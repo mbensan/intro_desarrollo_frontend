@@ -10,3 +10,12 @@ h3 {
 li {
   color: darkred;
 }
+
+h5 {
+  color:blueviolet
+}
+
+.menu-item {
+  text-align: center;
+  text-decoration: line-through;
+}
