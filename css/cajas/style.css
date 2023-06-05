@@ -1,0 +1,66 @@
+.container {
+  width: 900px;
+  background-color: darkgray;
+  margin: 0 auto;
+  padding: 12px;
+}
+header {
+  background-color: green;
+  height: 100px;
+}
+header ul {
+  color: aqua;
+  text-decoration: underline;
+  font-weight: bold;
+  display: inline-block;
+}
+header ul li {
+  display: inline-block;
+  width: 100px;
+}
+
+.side {
+  background-color: blue;
+  display: inline-block;
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  border: 2px solid black;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-right: 20px;
+  position: relative;
+}
+.main {
+  background-color: red;
+  margin-top: 15px;
+  display: inline-block;
+  width: 582px;
+  padding: 10px;
+  vertical-align: top;
+}
+.amarilla {
+  background-color: yellow;
+  height: 200px;
+  display: inline-block;
+  margin-left: 20px;
+  width: 165px;
+}
+.morada {
+  background-color: blueviolet;
+  height: 100px;
+  margin: 10px 17px;
+}
+.enlace {
+  padding: margin 10px;
+  border: 2px solid orange;
+  margin: 15px;
+  padding: 15px;
+}
+.enlace:hover {
+  background-color: brown;
+}
+.enlace a {
+  color: white;
+  text-decoration: none;
+}

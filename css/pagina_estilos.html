@@ -6,7 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!-- Vinculamos la página CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="estilos.css">
+  <!-- Estilos propios de esta página -->
+  <style>
+    h1 {
+      color: goldenrod;
+    }
+  </style>
 </head>
 <body>
   <h1>CSS (Cascade Style Sheets)</h1>
@@ -15,8 +25,17 @@
     <li>Para darle color a los elementos</li>
     <li>Para ajustar las dimensiones</li>
     <li>Para posicionar elementos</li>
-    <li>entre otros</li>
+    <li class="tachado" id="negritas">entre otros</li>
   </ul>
-  <p>Para más información, dirigirse a <a href="https://www.w3schools.com/Css/">esta página</a></p>
+  <p id="parrafo-grande">Para más información, dirigirse a <a href="otra_pagina.html">esta página</a></p>
+  <!-- Estilos de una UNICA etiqueta -->
+  <h1 style="color:brown; text-decoration: underline;">Fin de la primera página</h1>
+  <div>
+    <ol>
+      <li>Estudiar propiedades CSS</li>
+      <li>Hacer los ejercicios</li>
+      <li class="tachado">Cualquier cosa</li>
+    </ol>
+  </div>
 </body>
 </html>

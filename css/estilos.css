@@ -8,14 +8,43 @@ h3 {
 }
 
 li {
-  color: darkred;
+  color: rgb(144, 17, 3);
+}
+
+/* selector de clase */
+.tachado {
+  text-decoration: line-through;
+}
+
+/* selector de id */
+#negritas {
+  font-weight: bold;
 }
 
 h5 {
   color:blueviolet
 }
 
-.menu-item {
-  text-align: center;
-  text-decoration: line-through;
+img {
+  width: 300px;
+  height: 300px;
+}
+
+ul {
+  width: 30rem;
+  /*
+  background-color: lightgray;
+  background-image: url(https://st.depositphotos.com/1000970/4216/i/950/depositphotos_42166413-stock-photo-a-white-sand-bottom-in.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  */
+  background: lightgrey url(https://st.depositphotos.com/1000970/4216/i/950/depositphotos_42166413-stock-photo-a-white-sand-bottom-in.jpg) no-repeat center;
+  border-radius: 1rem;
+}
+
+#parrafo-grande {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
 }

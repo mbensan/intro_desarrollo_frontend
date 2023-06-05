@@ -1,0 +1,26 @@
+header {
+  background-color: blueviolet;
+  position: relative;
+}
+#logo {
+  width: 130px;
+}
+
+header > img, header > nav {
+  display: inline-block;
+}
+
+header > nav {
+  position: absolute;
+  right: 17px;
+  top: 29px;
+}
+
+header > nav > a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #555;
+  margin-left: 1rem;
+}
+
