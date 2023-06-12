@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Ciclos</title>
+</head>
+<body>
+  <h2>Ejercicio de ciclos</h2>
+  <script>
+    const fin_minuto = 5
+    const fin_segundo = 60
+
+    let minutero = 1
+    let segundero = 0
+
+    while (minutero <= fin_minuto) {
+      // imprimo todos los segundos de ESE minuto
+      segundero = 0
+
+      while (segundero <= fin_segundo) {
+        const frase = minutero + ' minutos ' + segundero + ' segundos'
+        console.log(frase)
+        segundero++
+      }
+
+      minutero++
+    }
+
+    let cont = 1
+
+    while (cont <= 35) {
+      if ((cont % 3 == 0) && (cont % 5 == 0)) {
+        console.log('FizzBuzz')
+      }
+      else if (cont % 3 == 0) {
+        console.log('Fizz')
+      }
+      else if (cont % 5 == 0) {
+        console.log('Buzz')
+      }
+      else {
+        console.log(cont)
+      }
+      cont++
+    }
+
+
+
+  </script>
+</body>
+</html>
