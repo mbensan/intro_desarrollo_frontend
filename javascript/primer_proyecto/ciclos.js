@@ -27,3 +27,13 @@ while (intento != palabraMagica) {
 }
 alert("¡Bienvenido a La Caverna De Los 40 Ladrones!");
 
+// 1. iniciamos un iterador
+let i=0;
+// 2. establecemos una condición para seguir iterando
+while (i <= 100) {
+  if (i % 7 == 0) {
+    console.log(i)
+  }
+  // 3.nos acercamos al fin del ciclo
+  i++
+}
